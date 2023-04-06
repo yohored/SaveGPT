@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="firebase-app.js"></script>
+  <script src="firebase-firestore.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>ChatGPT Extension</h1>
+  <div>
+    <label for="title">Title:</label>
+    <input type="text" id="title" />
+  </div>
+  <div>
+    <label for="tags">Tags:</label>
+    <input type="text" id="tags" />
+  </div>
+  <button id="saveButton">Save Conversation</button>
+  <h2>Conversations</h2>
+  <div id="conversations"></div>
+  <div>
+    <label for="search">Search by Tag:</label>
+    <input type="text" id="search" />
+  </div>
+  <button id="searchButton">Search</button>  
+  <script src="popup.js"></script>
+</body>
+</html>
